@@ -111,7 +111,7 @@ def get_card_number(operation):
     :param operation:
     :return:
     """
-    operation_from = operation.setdefault("from", "")
+    operation_from = operation["from"]
     card_number = []
     for word in operation_from:
         if word.isdigit():

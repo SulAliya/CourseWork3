@@ -1,8 +1,6 @@
-from Course_work_3 import functions
+from Course_work_3.course_work_3 import functions
 
-import json
-
-operations_list=functions.load_operations()
+operations_list= functions.load_operations()
 executed_operations = functions.executed_operations(operations_list)
 
 sort_list = functions.sorted_list(executed_operations)
